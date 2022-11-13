@@ -182,9 +182,9 @@ Starfish are very interesting creatures. One particularly interesting specimen i
     * Otherwise, if the opponent is a Lion, Feline, or a Leopard, the Ocelot will SCRATCH. If not, the Ocelot will POUNCE. **NOTE: This takes place in `generateAttack(String opponent)`**
 
 ### Elephant extends Critter 
-* **Variables**: Elephants share an int goalX and int goalY coordinate (make them protected, not private). An Elephant also has a Random object used to generating random ints when picking new goal coordinates. This Random object is an instance variable, not a static variable.
+* **Variables**: Elephants share an int goalX and int goalY coordinate (make them protected, not private). An Elephant also inherits a `Random` object used to generating random ints when picking new goal coordinates.
     * **Hint**: Look at the modifier for goalX and goalY. What does that mean about all Elephant objects?
-* **No-arg constructor**: The string representation of Elephant is “El”. The random object must be initialized.  The very first goalX and goalY should be (0,0).
+* **No-arg constructor**: The string representation of Elephant is “El”. The very first goalX and goalY should be (0,0).
 * **Override `getColor()`**: Elephants are GRAY.
 * **Override `getMove()`**: Elephants are sensible creatures and know that they are safer if they move in herds. Because of this, Elephants have a precise movement pattern.
     * All elephants move towards the shared `goalX` and `goalY` coordinate in the simulation. Each Elephant moves towards their goal in the axis in which they are **further from their goal**. So if an Elephant is further from its goal in the x-axis, it would move EAST or WEST depending on the location of their goal and their current location. When an Elephant is  further from its goal in the y-axis, an Elephant would move NORTH or SOUTH. If the distances are **equal**, choose to move on either the x or y-axis (but be consistent with your choice - always choose x or always choose y).
