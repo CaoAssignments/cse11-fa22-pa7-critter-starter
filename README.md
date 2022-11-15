@@ -1,5 +1,5 @@
 # CSE 11 Fall 2022 PA7 - Critter and Inheritance
-**Due date: Thursday, Nov 17 @11:59PM PDT**
+**Due date: Friday, Nov 18 @11:59PM PDT**
 
 There is an [FAQ post](https://piazza.com/class/l871flmwsqy8i/post/938) on Piazza. Please read that post first if you have any questions.
 
@@ -243,7 +243,7 @@ Coding style is an important part of ensuring readability and maintainability of
 A full style guide can be found [here](https://github.com/CaoAssignments/style-guide/blob/main/README.md) and a sample styled file can be found [here](https://github.com/CaoAssignments/style-guide/blob/main/SampleFile.java). If you need any clarifications, feel free to ask on Piazza.
 
 ## Submission & Grading
-Submit the following file to Gradescope by **Thursday, Nov 17 @ 11:59PM PDT**.
+Submit the following file to Gradescope by **Friday, Nov 18 @ 11:59PM PDT**.
 
 * Starfish.java
 * Turtle.java
