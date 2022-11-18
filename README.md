@@ -243,7 +243,7 @@ Coding style is an important part of ensuring readability and maintainability of
 A full style guide can be found [here](https://github.com/CaoAssignments/style-guide/blob/main/README.md) and a sample styled file can be found [here](https://github.com/CaoAssignments/style-guide/blob/main/SampleFile.java). If you need any clarifications, feel free to ask on Piazza.
 
 ## Submission & Grading
-Submit the following file to Gradescope by **Monday, Nov 21 @ 11:59PM PDT**.
+Submit the following file to Gradescope by **Wednesday, Nov 23 @ 11:59PM PDT**.
 
 * Starfish.java
 * Turtle.java
